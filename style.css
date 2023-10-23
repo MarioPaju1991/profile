@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Mono&family=Varela+Round&display=swap');
+
+body {
+  background-color:#D6D2D2;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 50px;
+}
+
+h2 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+.btn-red {
+  text-decoration:none ;
+  background-color: red;
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: white;
+}
+
+.btn-red:hover {
+  opacity: 0.5;
+  background-color: blue;
+}
+
+.profile {
+  width: 400px;
+  border-radius: 50%;
+}
+
+.card {
+  background: #F1E4F3;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  margin: 20px 60px;
+  border: 1px solid red;
+}
+
+.picture {
+  width: 400px;
+  border-radius: 5px;
+}
+
+.card:first-child p {
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 18px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.list-horizontal {
+  list-style: none;
+  padding: 0;
+}
+
+.list-horizontal > li {
+  display: inline-block;
+  margin: 24px;
+  font-size: 40px;
+}
+
+.list-horizontal > li:hover {
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .picture {
+    width: 80%;
+    border-radius: 5px;
+  }
+
+  .profile {
+    width: 80%;
+    border-radius: 50%;
+  }
+
+
+}
